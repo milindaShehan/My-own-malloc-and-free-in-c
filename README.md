@@ -47,4 +47,5 @@ When a memory block is freed, the free() implementation updates the linked list 
 The linked list of free memory blocks is maintained as a global variable, which is not thread-safe.
 
 <h3>Limitations</h3>
+
 This implementation of malloc() and free() is not designed to be used in production environments, and is intended only as an educational exercise. There are many more factors to consider in a production-quality memory allocation implementation, such as thread safety, performance, and optimization.
