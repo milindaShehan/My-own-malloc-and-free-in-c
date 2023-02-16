@@ -1,15 +1,21 @@
-<h2>Custom Malloc Implementation in C </h2>
+<h2>Custom Malloc and Free Implementation in C </h2>
+
 
 <p>
 This repository contains an implementation of malloc() and free() functions in C, which are used to dynamically allocate and free memory at runtime. These functions, MyMalloc() and MyFree(), have been implemented in the file mymalloc.h and mymalloc.c respectively.
+
+<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/C.svg" alt="c" width="40" height="40"/> </a> 
+
 </p>
 <h3>How to Use</h3>
 To use MyMalloc() and MyFree() functions in your own C program, simply include the mymalloc.h header file in your program and link the mymalloc.c file with your source code at compile time.
 
 <h5>Example</h5>
 Here is an example program that uses MyMalloc() and MyFree():
+</br>
 
-```
+```c
+
 #include <stdio.h>
 #include <string.h>
 #include "mymalloc.h"
